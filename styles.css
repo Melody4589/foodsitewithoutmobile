@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.melody {
+    display: flex;
+    width: 100%;    
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    box-shadow: 1px 4px 8px rgb(228, 217, 217);
+    z-index: 999999999;
+}
+.mel {
+    /* background-color: yellow; */
+    width: 70%;
+}
+.me {
+    /* background-color: blue; */
+    width: 30%;
+    text-align: right;
+}
+.me ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.me ul li {
+    display: inline-block;
+}
+.me ul li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    letter-spacing: 3px;
+    padding: 10px 20px;
+}
+.me ul li a:hover {
+    background-color: rgb(140, 137, 137);
+}
+.ju {
+    position: relative;
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+.ju-text {
+    /* background-color: brown; */
+    width: 40%;
+    bottom: 0;
+    position: absolute;
+    padding: 20px;
+    font-size: 50px;
+}
+.ju .ju-ime {
+    background-image: url(hamburger.jpg);
+    height: 450px;
+}
+.aq {
+    display: flex;
+}
+.box {
+    padding: 50px;
+}
+.green-box {
+    /* background-color: green; */
+    width: 50%;
+    text-align: right;
+}
+.green-box img {
+    height: 500px;
+}
+.aqua-box {
+    /* background-color: aqua; */
+    width: 50%;
+    padding-right: 150px;
+    text-align: center;
+}
+.aqua-box h2 {
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.aqua-box h4 {
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.aqua-box p {
+    text-align: left;
+}
+.sec-p {
+    color: rgb(218, 208, 208);
+}
+.melodia {
+    display: flex;
+    /* background-color: aqua; */
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+}
+.hr {
+    width: 80%;
+    text-align: center;
+}
+.dia {
+    /* background-color: brown; */
+    width: 50%;
+    padding: 100px;
+}
+.dia h3 {
+    text-align: center;
+    font-size: 25px;
+}
+.di {
+    /* background-color: blue; */
+    width: 50%;
+    text-align: center;
+}
+.di img {
+    height: 750px;
+}
+.bottom-space {
+    margin-bottom: 50px;
+}
+.er {
+    width: 80%;
+    margin: auto;
+}
+.esd {
+    color: rgb(124, 124, 196);
+}
+.er input {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(168, 162, 162);
+}
+.er .button-input {
+    width: auto;
+    padding: 10px 20px;
+    border: none;
+}
+.er .button-input:hover {
+    color: rgb(133, 127, 127);
+}
+
